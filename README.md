@@ -25,7 +25,7 @@ data "aws_eks_cluster" "eks_k8s" {
 
 module "argo-workflow-eks" {
   source  = "mrnim94/argo-workflow-eks/aws"
-  version = "0.0.6"
+  version = "1.0.0"
 
   aws_region = var.aws_region
   environment = "dev"
