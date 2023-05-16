@@ -22,7 +22,7 @@ resource "helm_release" "argo_workflow_release" {
 
   set {
     name  = "server.serviceAnnotations.service\\.beta\\.kubernetes\\.io/aws-load-balancer-internal"
-    value = "true"
+    value = "'true'"
   }
   set {
     name  = "server.serviceType"
