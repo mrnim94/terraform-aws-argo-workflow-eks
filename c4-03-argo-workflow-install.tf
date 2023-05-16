@@ -38,7 +38,7 @@ resource "helm_release" "argo_workflow_release" {
   }
   set {
     name  = "useStaticCredentials"
-    value = "true"
+    value = "false"
   }
   set {
     name  = "useDefaultArtifactRepo"
@@ -63,15 +63,6 @@ resource "helm_release" "argo_workflow_release" {
   set {
     name  = "artifactRepository.s3.useSDKCreds"
     value = "true"
-  }
-  set {
-    name  = "artifactRepository.s3.accessKeySecret.name"
-    value = ""
-  }
-
-  set {
-    name  = "artifactRepository.s3.secretKeySecret.name"
-    value = ""
   }
    
 }
