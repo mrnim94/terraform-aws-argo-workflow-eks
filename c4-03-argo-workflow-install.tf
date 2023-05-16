@@ -8,7 +8,7 @@ resource "helm_release" "argo_workflow_release" {
   repository = "https://argoproj.github.io/argo-helm"
   chart      = "argo-workflows"
 
-  namespace = "argo-workflow"   
+  namespace = "argo-workflow"
 
 #   set {
 #     name  = "controller.workflowDefaults.spec.serviceAccountName"
