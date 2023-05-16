@@ -1,6 +1,7 @@
 # Argo Workflow on EKS
 
-I have designed Argo Work on EKS to save logs and all artifact types on S3.
+I have designed Argo Work on EKS to save logs and all artifact types on S3.   
+Argo Work access S3 through IRSA (not use access key and secret key)
 
 You can follow the below configuration:
 
