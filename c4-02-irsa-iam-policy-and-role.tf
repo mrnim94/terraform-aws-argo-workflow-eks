@@ -55,7 +55,7 @@ resource "aws_iam_role" "irsa_iam_role" {
         }
         Condition = {
           StringLike = {            
-            "${local.aws_iam_openid_connect_provider_extract_from_arn}:sub": "system:serviceaccount:argo-workflow:argoworkflow-mdaas-staging-argo-workflows-*"
+            "${local.aws_iam_openid_connect_provider_extract_from_arn}:sub": "system:serviceaccount:argo-workflow:${local.name}-argo-workflows-*"
           }
         }        
 
