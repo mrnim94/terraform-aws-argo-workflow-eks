@@ -47,3 +47,7 @@ eks_cluster_endpoint = "https://54BDECE91CB74A3682E45D44CB7533CE.gr7.us-west-2.e
 eks_cluster_id = "dev-nim-engines"
 aws_iam_openid_connect_provider_arn = "arn:aws:iam::250887682577:oidc-provider/oidc.eks.us-west-2.amazonaws.com/id/54BDECE91CB74A3682E45D44CB7533CE"
 ```
+
+You can refer to many guides about Argo Workflow..
+
+[![Image](https://nimtechnology.com/wp-content/uploads/2023/04/file-15.png "[Argo-Workflows] Lesson23: Setup logging and artifact repository")](https://nimtechnology.com/2023/04/17/argo-workflows-lesson23-setup-logging-and-artifact-repository/)
